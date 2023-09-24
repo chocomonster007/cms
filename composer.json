@@ -1,0 +1,19 @@
+{
+    "name": "bou/cms",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chocomonster007",
+            "email": "antoinelecorre56@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "symfony/var-dumper": "^6.3",
+        "filp/whoops": "^2.15"
+    }
+}

@@ -1,0 +1,219 @@
+body{
+    display: flex;
+        margin: 0;
+        padding:0;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+}
+
+
+.dos{
+    position: relative;
+    z-index: 10;
+    width: auto;
+    padding: 3%;
+    background-color: rgba(255,255,255,.4);
+}
+.dos h1{margin: 0 0 8% 0;}
+
+label{
+    display: block;
+    margin: 15px 5px 5px 5px;
+}
+button{
+    display: block;
+    margin: 15px auto 0px auto;
+    padding: 15px;
+    background-color: rgb(0, 255, 0);
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 128, 0);
+}
+main input{
+    width: 100%;
+    padding:10px;
+    
+}
+#perso input{height: 40px;
+            background-color: transparent;
+            width: 100%;
+            font-size: 1.4em;
+            display: block;
+            text-align: center;
+            }
+#perso span{
+    width:60%;
+}
+
+#widgets{
+    width:25%;
+    float: left;
+    height: 100vh;
+    background-color: white;
+    border-right:4px solid black;
+    position: relative;
+   
+}
+#widgets button{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+header{position: fixed;
+        top: 0;
+        height: 6vh;
+        width: 100vw;
+        background-color: black;
+        color: white;
+
+        
+        }
+header ul{display: flex;
+    margin: 0;
+    align-items: center;
+height: 100%;
+    }
+header li{list-style: none;}
+header nav{height: 100%;}
+.fake button{padding: 5px;
+    background-color: black;
+    box-shadow: none;
+    margin:0;
+    font-size: 1em;
+    border: none;
+    color: white;
+}
+
+#perso{width: 75%;
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+    overflow-x: hidden;
+    }
+
+    .widgets{
+        margin-top: 8vh;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+.widget{
+    position: relative;
+    width:40%;
+    height: 20%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.widget img{height: 100px;
+            width: 100px;}
+.widget h4{margin: 10px}
+
+#perso h3{
+    text-align: center;
+}
+
+.none{display: none;}
+
+.css{
+    display: flex;
+    width:25%;
+    float: left;
+    height: 100vh;
+    background-color: white;
+    border-right:4px solid black;
+}
+.cssBis{width: 100%;
+        margin-top: 8vh;}
+#imgWidget{
+    width: 50px;
+    height:50px;}
+
+.t-texte{margin: 50% auto;
+        width: 50%;}
+
+#perso input{width: auto;
+            margin: 15px auto;
+        resize: both;}
+
+.fakeWidget{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.dragOn{
+    width: 40vw;
+    height: 5vh;
+    background-color: pink;
+}
+
+.deco{
+    color: white;
+    
+}
+header{display: flex;
+        justify-content: center;
+        align-items: center;}
+
+header a{margin: 0 3vw;}
+
+.sauver{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: green;
+    animation: sauvegarde 5s forwards;
+    
+}
+.sauver p{
+    margin: 0;
+}
+
+@keyframes sauvegarde {
+    0%{
+        opacity: 0;
+        transform: translateY(150%);
+    }
+    10%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    90%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(150%);
+    }
+   
+}
+
+#widgets{
+    overflow: hidden;
+}
+#perso h2{margin: 10px;}
